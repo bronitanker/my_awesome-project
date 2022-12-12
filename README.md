@@ -1,3 +1,3 @@
 This is my-awesome-project
 
-this my first changes in gitlab web ide 
+this my first changes in gitlab web ide. 
