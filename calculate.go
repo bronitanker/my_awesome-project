@@ -1,4 +1,3 @@
-// Калькулятор
 package main
 
 import (
@@ -191,7 +190,7 @@ func main() {
 			case n2 == "*":
 				fmt.Println("=", Roman(multiply()))
 			case n2 == "/":
-				fmt.Println("=", Roman(divide()), "( остаток от деления =", nums[0]%nums[1], ")")
+				fmt.Println("=", Roman(divide()), "( остаток от деления =", Roman(nums[0]%nums[1]), ")")
 			default:
 				fmt.Println("Ошибка ввода! Используйте операнды: \"+\", \"-\", \"*\", \"/\"")
 				break
