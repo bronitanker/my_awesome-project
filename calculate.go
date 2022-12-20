@@ -139,8 +139,6 @@ var split_str []string
 
 func main() {
 
-	//var less_zero int = subtract()
-
 	for {
 		// Считываем данные из консоли
 		fmt.Scanln(&n1, &n2, &n3, &n4, &n5)
